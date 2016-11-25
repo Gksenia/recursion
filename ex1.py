@@ -1,5 +1,7 @@
 n=int(input())
 def fib(n):
+    if n<0:
+        print("Incorrect value")
     if n == 1:
         return 0
     elif n == 2:
